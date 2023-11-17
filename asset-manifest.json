@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/movies-app/static/css/main.e4af1d6f.css",
+    "main.js": "/movies-app/static/js/main.80aef415.js",
+    "static/media/Inter-Bold.woff2": "/movies-app/static/media/Inter-Bold.c08e610806161507e8e3.woff2",
+    "static/media/Inter-SemiBold.woff2": "/movies-app/static/media/Inter-SemiBold.90f5c90fdecd8895f496.woff2",
+    "static/media/Inter-Medium.woff2": "/movies-app/static/media/Inter-Medium.01f03178adde434fc9fa.woff2",
+    "static/media/Inter-Regular.woff2": "/movies-app/static/media/Inter-Regular.bd097ceff83f90802a12.woff2",
+    "index.html": "/movies-app/index.html",
+    "main.e4af1d6f.css.map": "/movies-app/static/css/main.e4af1d6f.css.map",
+    "main.80aef415.js.map": "/movies-app/static/js/main.80aef415.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4af1d6f.css",
+    "static/js/main.80aef415.js"
+  ]
+}
