@@ -1,0 +1,58 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest": true
+  },
+  "ignorePatterns": ["node_modules", "dist", "build"],
+  "extends": ["airbnb", "airbnb/hooks", "plugin:react/recommended", "prettier"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["react", "jsx-a11y", "import", "react-hooks", "prettier"],
+  "rules": {
+    "react/destructuring-assignment": "off",
+    "react/state-in-constructor": 0,
+    "jsx-a11y/label-has-associated-control": 0,
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": 0,
+    "react/sort-comp": "off",
+    "jsx-a11y/control-has-associated-label": "off",
+    "react/no-access-state-in-setstate": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "indent": ["error", 2, {"SwitchCase":1}],
+    "prettier/prettier": "error",
+    "camelcase": "off",
+    "no-const-assign": "off",
+    "linebreak-style": [0, "unix"],
+    "react/no-array-index-key": "off",
+    "func-names": "off",
+    "no-console": "off",
+    "react/no-unused-class-component-methods": "off",
+    "quotes": ["error", "single"],
+    "class-methods-use-this": "off",
+    "react/prefer-stateless-function": "off",
+    "no-plusplus": "off",
+    "jsx-a11y/no-autofocus": "off",
+    "import/no-unresolved": [2, { "caseSensitive": false }],
+    "import/order": [
+      "error",
+      {
+        "groups": ["index", "sibling", "parent", "internal", "external", "builtin", "object", "type"]
+      }
+    ]
+  },
+  "settings": {
+    "version": "detect",
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"],
+        "moduleDirectory": ["node_modules", "src/"]
+      }
+    }
+  }
+}

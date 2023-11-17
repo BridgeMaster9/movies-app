@@ -1,0 +1,7 @@
+.card-list {
+    display: grid;
+    gap: 36px;
+    grid-template-columns: repeat(auto-fit, minmax(388px, 451px));
+    padding-left: 0;
+    justify-content: center;
+}

@@ -1,0 +1,28 @@
+.tabs{
+    display: flex;
+    justify-content: center;
+    padding-top: 13px;
+    padding-bottom: 19px;
+}
+
+.tabs__container{
+    display: flex;
+    justify-content: space-between;
+    width: 146px;
+    border-bottom: 1px solid rgba(217, 217, 217, 1);
+}
+
+.tabs__button{
+    width: 65px;
+    height: 54px;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.65);
+    background-color: #fff;
+    border: none;
+}
+
+.tabs-checked{
+    color: rgba(24, 144, 255, 1);
+    border-bottom: 3px solid rgba(24, 144, 255, 1);
+}
